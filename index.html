@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- Defines types of docuements : Html 5.O  -->
+<html lang="en">
+    <!--  DEfines lanuages of content : English  -->
+
+<head>
+    <!-- Information about website and  creator -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description " content="A place made by Beans">
+    <title>Beans By Beans</title>
+
+
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+
+    <div class="Menu_Bar">
+        <div class="Logo" style="float: left; margin-left: 1%">
+            <img src="assets/BeansByBeansTopLogo.png" style="height: 55px">
+        </div>
+
+        <div class="Menu_Bar_Button" style="float: right">
+            <div class="Menu_Contents">
+                <center>
+                    <a href="index.html" style="color: red">HOME</a>
+                    <a href="beans.html" style="color: white">BEANS</a>
+                    <a href="socialmedia.html" style="color: white">SOCIAL<br>MEDIA</a>
+                </center>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="Main">
+    </div>
+
+    <div class="Spacer" style="color: red">
+    </div>
+
+    <div class="Article1" style="color: white; font-family: monospace">
+        <center>HELLO</center>
+    </div>
+
+    <div class="Article_Body1" style="color: white; font-family: monospace">
+        <center>Hey! Thank you for stopping by!
+            <br>I know there isn't much atm but my Beans are hard at work!
+            <br> Thank you for your patience!
+
+        </center>
+    </div>
+</body>
+
+
+
+
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.8.4/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDdhrrdZrJR-xPdvn-W7V5zvM6fdA6ruXI",
+    authDomain: "beansbybeans.firebaseapp.com",
+    projectId: "beansbybeans",
+    storageBucket: "beansbybeans.appspot.com",
+    messagingSenderId: "539751409968",
+    appId: "1:539751409968:web:0b1ed7f1d895badc2a40f5",
+    measurementId: "G-BLX67PQ1R9"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+
+</html>

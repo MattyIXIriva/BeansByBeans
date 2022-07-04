@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    background-color: black
+}
+
+.Main{
+    border-top: 3px solid red;
+}
+
+.Logo{
+    align-content: center;
+    height: auto;
+}
+
+.Menu_Bar{
+    margin-top: 5px;
+    height: 60px
+}
+
+.Menu_Bar_Button{
+    height: 60px;
+    width: 65px;
+    object-position: center;
+    background: url(assets/menu_button.png);
+}
+
+.Menu_Bar_Button:hover{
+    height: 60px;
+    width: 65px;
+    object-position: center;
+    background: url(assets/menu_button_hover2.png);
+}
+
+.Spacer{
+    background-image: url(assets/space1.jpg);
+    background-size:cover;
+    border-bottom: 3px solid red;
+    height: 250px;
+}
+
+.Article1{
+    font-size: 100px;
+}
+
+.Article_Body1{
+    font-size: 25px;
+}
+
+.Menu_Contents{
+    position: absolute;
+    right: 9px;
+    border: 3px solid red;
+    margin-top: 60px;
+    display: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.Menu_Contents a {
+    border-bottom: 3px solid red;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.Menu_Bar_Button:hover .Menu_Contents {
+    display: block;
+}
+
+
