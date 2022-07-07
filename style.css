@@ -21,18 +21,18 @@ body{
     height: 60px;
     width: 65px;
     object-position: center;
-    background: url(assets/menu_button.png);
+    background: url(https://github.com/MattyIXIriva/BeansByBeans/blob/MainBean/assets/menu_button.png);
 }
 
 .Menu_Bar_Button:hover{
     height: 60px;
     width: 65px;
     object-position: center;
-    background: url(assets/menu_button_hover2.png);
+    background: url(https://github.com/MattyIXIriva/BeansByBeans/blob/MainBean/assets/menu_button_hover2.png);
 }
 
 .Spacer{
-    background-image: url(assets/space1.jpg);
+    background-image: url(https://github.com/MattyIXIriva/BeansByBeans/blob/MainBean/assets/space1.jpg);
     background-size:cover;
     border-bottom: 3px solid red;
     height: 250px;
